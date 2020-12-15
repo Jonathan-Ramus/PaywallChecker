@@ -5,7 +5,7 @@ ft.com
 haaretz.com
 bostonglobe.com
 theaustralian.com.au
-washingtonpost.com
+https://www.washingtonpost.com
 nytimes.com
 bloomberg.com
 wsj.com
