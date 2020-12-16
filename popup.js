@@ -39,8 +39,8 @@ function save_options() {
     //strikethrough: strikethrough.checked,
     greenBox: greenBox.checked,
     greenBoxTime: greenBoxTime.value,
-	redBox: greenBox.checked,
-    redBoxTime: greenBoxTime.value,
+	redBox: redBox.checked,
+    redBoxTime: redBoxTime.value,
   });
 }
 
@@ -60,8 +60,8 @@ function restore_options() {
     //strikethrough.checked = items.strikethrough;
     greenBox.checked = items.greenBox;
     greenBoxTime.value = items.greenBoxTime;
-	redBox.checked = items.greenBox;
-    redBoxTime.value = items.greenBoxTime;
+	redBox.checked = items.redBox;
+    redBoxTime.value = items.redBoxTime;
     //console.log("restored options!"); console.log(items);
   });
 }
