@@ -21,8 +21,6 @@ for (i = 0;  i < links.length; i++) { //for every link, create a mouseover event
 				var i = 0
 				for (; i < mark.length - 1; i++){
 					if (check.indexOf(mark[i]) > -1){
-						console.log(check);
-						console.log(mark[i]);
 						invalidLink(link);
 						break;
 					}
