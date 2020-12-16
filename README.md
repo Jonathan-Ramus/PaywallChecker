@@ -1,4 +1,4 @@
-# Paywall-Checker-
+# Paywall Checker
 Paywall Checker is a google chrome extension that checks whether a link leads to a paywalled site. It compares the url to a master list found at https://raw.githubusercontent.com/Jonathan-Ramus/PaywallChecker/main/BList.txt. 
 
 # Motivation
