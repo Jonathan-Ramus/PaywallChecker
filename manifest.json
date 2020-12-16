@@ -1,0 +1,23 @@
+{
+	"name": "Paywall Checker",
+	"version": "0.1", 
+	"manifest_version": 2,
+	"description": "Identifies links to paywalled sites",
+	"icons": {"128": "icon.png"}, 
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Paywall Checker",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+	   {
+		"matches": ["<all_urls>"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	   }
+	],
+	"permissions": [
+		"tabs", 
+		"storage"
+	  ]
+}
